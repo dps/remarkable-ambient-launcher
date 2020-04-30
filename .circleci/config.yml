@@ -61,7 +61,7 @@ jobs:
           command: find .
 
       - store_artifacts:
-          path: launcher
+          path: ./launcher
           destination: launcher
 
       - run:
