@@ -12,7 +12,7 @@ Window {
         color: "white"
 
         Image {
-            source: "file://everyones_an_epidemiologist.png"
+            source: "file:///home/root/everyones_an_epidemiologist.png"
         }
     }
 

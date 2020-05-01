@@ -20,8 +20,7 @@ int main(int argc, char *argv[])
 #endif
     // end reMarkable additions
 
-    system("/usr/sbin/wpa_supplicant -iwlan0 -c/home/root/wpa_supplicant.conf &");
-    system("sleep 10");
+    //system("/usr/sbin/wpa_supplicant -iwlan0 -c/home/root/wpa_supplicant.conf &");
 
     QGuiApplication app(argc, argv);
 
