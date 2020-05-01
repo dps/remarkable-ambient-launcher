@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     // end reMarkable additions
 
     system("/usr/sbin/wpa_supplicant -iwlan0 -c/home/root/wpa_supplicant.conf &");
-    system("sleep 10");
+    system("sleep 20");
     system("wget https://imgs.xkcd.com/comics/use_or_discard_by.png -O fp.png");
 
     QGuiApplication app(argc, argv);
