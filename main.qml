@@ -12,6 +12,7 @@ Window {
         color: "white"
 
         Image {
+            anchors.fill: parent
             source: "file:///home/root/everyones_an_epidemiologist.png"
         }
     }
