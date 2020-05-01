@@ -10,6 +10,10 @@ Window {
     Rectangle {
         anchors.fill: parent
         color: "white"
+
+        Image {
+            source: "https://imgs.xkcd.com/comics/everyones_an_epidemiologist.png"
+        }
     }
 
 }
