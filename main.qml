@@ -12,8 +12,7 @@ Window {
         color: "white"
 
         Image {
-            anchors.left: parent.left
-            anchors.right: parent.right
+            anchors.fill: parent
             fillMode: Image.PreserveAspectFit
             source: "file:///home/root/everyones_an_epidemiologist.png"
         }
