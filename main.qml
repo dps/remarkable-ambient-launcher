@@ -14,7 +14,7 @@ Window {
         Image {
             anchors.left: parent.left
             anchors.right: parent.right
-
+            fillMode: Image.PreserveAspectFit
             source: "file:///home/root/everyones_an_epidemiologist.png"
         }
     }
