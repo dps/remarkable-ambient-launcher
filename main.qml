@@ -14,7 +14,7 @@ Window {
         Image {
             anchors.fill: parent
             fillMode: Image.PreserveAspectFit
-            source: "file:///home/root/everyones_an_epidemiologist.png"
+            source: "file:///home/root/fp.png"
         }
     }
 
