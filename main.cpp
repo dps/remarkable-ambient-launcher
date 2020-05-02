@@ -20,9 +20,14 @@ int main(int argc, char *argv[])
 #endif
     // end reMarkable additions
 
+    // battery capacity
+    // /sys/class/power_supply/bq27441-0/capacity
+
+    system("/usr/bin/button-capture &");
+
     system("/usr/sbin/wpa_supplicant -iwlan0 -c/home/root/wpa_supplicant.conf &");
     system("sleep 20");
-    system("wget https://imgs.xkcd.com/comics/use_or_discard_by.png -O fp.png");
+    system("wget https://imgs.xkcd.com/comics/turtle_sandwich_standard_model.png -O fp.png");
 
     QGuiApplication app(argc, argv);
 

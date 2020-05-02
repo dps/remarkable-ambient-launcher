@@ -14,7 +14,7 @@ Window {
         Image {
             anchors.fill: parent
             fillMode: Image.PreserveAspectFit
-            source: "http://singleton.io/fp.png"
+            source: "file:///home/root/fp.png"
         }
     }
 
